@@ -1,0 +1,567 @@
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET / HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+-----202 html request recieved----
+-----200 ok html request succeeded----
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /%22/images/banner1.jpg/%22 HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost:8000/
+Connection: keep-alive
+
+
+-----202 GET METHOD image request received----
+202 ok img read
+-----200 ok img request succeeded----
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /%22/images/05_02.gif/%22 HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost:8000/
+Connection: keep-alive
+
+
+-----202 GET METHOD gif request recieved----
+202 ok gif read
+-----200 ok gif request succeeded----
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /cgi-bin/hello.cgi?first_name=nam&last_name=vuong HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost:8000/
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+202 get cgi request recieved
+200 ok get cgi executed
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET / HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+-----202 html request recieved----
+-----200 ok html request succeeded----
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /%22/images/banner1.jpg/%22 HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:8000/
+
+
+-----202 GET METHOD image request received----
+202 ok img read
+-----200 ok img request succeeded----
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /%22/images/05_02.gif/%22 HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:8000/
+
+
+-----202 GET METHOD gif request recieved----
+202 ok gif read
+-----200 ok gif request succeeded----
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /favicon.ico HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /favicon.ico HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /favicon.ico HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /favicon.ico HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /favicon.ico HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /favicon.ico HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /favicon.ico HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /favicon.ico HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /favicon.ico HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+client closing connection...
+--------Server Started-------
+ Port number: 8000
+ Max buffer size: 2048
+-----------
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+parent closing child client file...
+server running
+client connected:6
+201 ok REQUEST IN BUFFER:
+GET /favicon.ico HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+client closing connection...
